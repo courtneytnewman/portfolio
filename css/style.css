@@ -3,12 +3,26 @@ body{
 }
 
 h1{
-    font-family: "Raleway", 'sans-serif';
+    font-family: "Raleway", sans-serif;
     color: black;
     text-align: center;
-  
-
 }
+
+p, .navbar{
+    font-family: 'Geneva', sans-serif;
+}
+
+p{
+    display: flex;
+    align-content: space-between;
+}
+
+.navbar{
+    color: white;
+    background-color: darkgrey;
+}
+    
+    
 
 
 @media only screen and (max-width: 600px){
