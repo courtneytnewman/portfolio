@@ -6,15 +6,16 @@ h1{
     font-family: "Raleway", sans-serif;
     color: black;
     text-align: center;
+    font-size: 75%
 }
 
 p, .navbar{
-    font-family: 'Geneva', sans-serif;
+    font-family: "Poppins, sans-serif;
 }
 
 p{
     display: flex;
-    align-content: space-between;
+    font-size: 35%;
 }
 
 .navbar{
