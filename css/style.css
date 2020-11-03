@@ -34,7 +34,7 @@ p{
     color: white;
     background-color: darkgrey;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
     
 footer{
@@ -49,9 +49,13 @@ footer{
 
 .gallery{
     display: flex;
-    grid-template: auto;
+    width: 75%;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 1;
+    align-items: center;
+    align-content: space-between;
+    
 }
 
 
