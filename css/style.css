@@ -19,9 +19,10 @@ p{
 }
 
 .navbar{
-    display: inline-grid;
     color: white;
     background-color: darkgrey;
+    display: flex;
+    flex-direction: column; 
 }
     
 footer{
