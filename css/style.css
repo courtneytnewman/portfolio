@@ -1,1 +1,16 @@
+body{
+    background-color: white;
+}
 
+h1{
+    font-family: "futura", sans-serif;
+    color: black;
+    text-align: center;
+  
+
+}
+
+
+@media only screen and (max-width: 600px){
+    
+}
