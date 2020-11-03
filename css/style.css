@@ -36,6 +36,9 @@ footer{
 
 .gallery{
     display: flex;
+    grid-template: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
