@@ -25,12 +25,11 @@ h3{
 }
 
 
-
 p{
     display: flex;
 }
 
-.navbar{
+nav{
     color: white;
     background-color: darkgrey;
     display: flex;
