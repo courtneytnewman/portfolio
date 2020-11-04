@@ -54,18 +54,11 @@ footer{
   flex-wrap: wrap;
   margin: 2;
   max-height: 50%;
+  max-width: 75%
   justify-content: center;
-  
-  /*Your code here again.*/
-}
+  }
 
-.gallery > img{
-  border: 10px #50C7C7 solid;
-  margin: 10px;
-  width: 300px;
-}
-    width: 80%;
-}
+
 #1, #2, #3, #7, #8{
         border: 3px solid grey;
     }
@@ -77,6 +70,7 @@ footer{
 gallery:hover {
   border: 1px solid #777;
     }
+
 @media screen and (min-width: 700px){
     .gallery{
         width: 45%;
