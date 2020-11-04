@@ -171,6 +171,7 @@ img:hover {
 @media screen and (min-width: 800px){
     .gallery{
         width: 30%;  
+    }
         
         @-webkit-keyframes logo_wiggle{
   0% {
