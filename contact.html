@@ -37,23 +37,30 @@
 		<img id="resume-pic" src="jpeg/laughing.jpeg" alt="Courtney Laughing" />
 </p>
 	<div class="container">
-		<form action="action_page.php">
-		  <label for="fname">First Name</label>
-		  <input type="text" id="fname" name="firstname" placeholder="First name here">
+		<form action="https://formspree.io/f/meqpkpzr" method="POST">
+			<fieldset>
+				<legend>Contact Form</legend>
+		  First Name
+		  <input type="text" placeholder="Full name here" name = "name>
 	  
-		  <label for="lname">Last Name</label>
-		  <input type="text" id="lname" name="lastname" placeholder="Last name here">
+		  Phone Number
+		  <input type="tel" name = "phone">
+								   <div><span>123-456-7890</span></div>
 	  
-		  <label for="company">Company</label>
-		  <input type="text" id="comp" name = "company" placeholder = "Company here">
+		  Company
+		  <input type="text" placeholder = "Company here">
 
-		  <label for = "email">Email</label>
-		  <input type = "text" id="em" name = "email" placeholder = "Email here">
+		  Email
+		  <input type = "email" name = "email">
 	  
-		  <label for="subject">Subject</label>
-		  <textarea id="subject" name="subject" placeholder="Write something here and I will get back to you soon!" style="height:200px"></textarea>
+		Leave a Message
+		  <textarea name = "message"></textarea>
 	  
-		  <input type="submit" value="Submit">
+		Remeber Me	
+		  <input type="checkbox" name="remember me">
+		Submit
+			<input type= "submit">
+			</fieldset>
 	  
 		</form>
 	  </div>
