@@ -53,9 +53,10 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 1;
+    margin: 2;
     align-items: center;
     align-content: space-between;
+    width: 80%;
     
 }
 #1, #2, #3, #7, #8{
