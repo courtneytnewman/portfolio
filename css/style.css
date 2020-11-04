@@ -28,6 +28,12 @@ a:hover, a:active{
     font-style: italic;
 }
 
+a.skip{
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+
 ol{
     color: grey;
 }
@@ -63,6 +69,7 @@ img{
 p{
    font size: 1em;
     line-height: 1.5;
+    padding: 10%;
 }
 
 input:focus{
@@ -78,9 +85,9 @@ nav{
 footer{
   width:100%;
   max-height: 100px;
-  background-color:white;
+  background-color:lightpink;
   text-align:center;
-  color: pink;
+  color: black;
   position: fixed;
   bottom: 0px;
 }
@@ -96,21 +103,41 @@ footer{
 
 #1, #2, #3, #7, #8, #12{
     display: flex;
-        border: 3px solid grey;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 3px solid lightgrey;
     }
     
 #4, #5, #6, #9, #10, #11{
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     border: 5px dotted lightgrey;
     }
     
-gallery:hover {
-  border: 3px solid lightpink;
+img:hover {
+  border: 7px solid lightpink;
     }
+    
+.container{
+    display: grid;
+    
+ }
+    
+#bold{
+    font-style:italic;
+    }
+    
+#list{
+
+    }
+    
+    
 
 @media screen and (min-width: 700px){
     .gallery{
         width: 45%;
+    }
         
     @-webkit-keyframes logo_wiggle{
   0% {
