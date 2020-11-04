@@ -24,6 +24,10 @@ h3{
     text-align: left;
 }
 
+img{
+    display: flex;
+}
+
 
 p{
    font size: 1em;
