@@ -20,7 +20,7 @@ body{
 }
 
 .nav-bar, a:hover, a:focus{
-  color: lightpink;
+  color: black;
   text-decoration: wavy;
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
@@ -29,10 +29,6 @@ body{
 .nav-bar .active{
     font-size: 1.25em;
     font-style: italic;
-}
-
-a:hover{
-    background-color: lightgrey;
 }
 
 h1, h2, h3{
