@@ -1,6 +1,5 @@
 *{
     font-family: "Poppins", sans-serif;
-    text-align: center;
 }
     
 body{
@@ -8,17 +7,11 @@ body{
     margin: 3%;
 }
 
-    
-.nav-bar{
-  display: flex;
-  flex-direction: column;
-  color: black
-  /*Your code here again.*/
-}
-
 .nav-bar a{
   color: black;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-bar, a:focus{
