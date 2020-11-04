@@ -1,5 +1,6 @@
 *{
     font-family: "Poppins", sans-serif;
+    text-align: center;
 }
     
 body{
@@ -7,6 +8,7 @@ body{
     margin: 3%;
 }
 
+    
 .nav-bar{
   display: flex;
   flex-direction: column;
@@ -19,17 +21,19 @@ body{
   text-decoration: none;
 }
 
-.nav-bar, a:hover, a:focus{
+.nav-bar, a:focus{
   color: black;
   text-decoration: wavy;
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
 }
 
-.nav-bar .active{
+.nav-bar a:hover a:active{
     font-size: 1.25em;
+    color: lightpink;
     font-style: italic;
 }
+
 
 h1, h2, h3{
     font-family: "Raleway", sans-serif;
