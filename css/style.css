@@ -94,7 +94,7 @@ footer{
   }
 
 
-#1, #2, #3, #7, #8{
+#1, #2, #3, #7, #8, #12{
     display: flex;
         border: 3px solid grey;
     }
@@ -105,7 +105,7 @@ footer{
     }
     
 gallery:hover {
-  border: 1px solid #777;
+  border: 3px solid lightpink;
     }
 
 @media screen and (min-width: 700px){
@@ -114,25 +114,21 @@ gallery:hover {
         
     @-webkit-keyframes logo_wiggle{
   0% {
-    width: 25px; }
+    width: 50px; }
   100% { 
-    width: 420px;}
+    width: 500px;}
   /*Your code here.*/
 }
 
 @keyframes logo_wiggle{
-  25% {width: 25px;}
-  100% { width: 420px;}
-  /*Your code here.*/
+  0% {width: 50px;}
+  100% { width: 500px;}
 } 
 
 #intro{
   animation-duration: 7s; 
   animation-name: logo_wiggle;
-     /*Your code here.*/
- 
-}
-
+ }
     
     }
     
@@ -142,22 +138,21 @@ gallery:hover {
         
         @-webkit-keyframes logo_wiggle{
   0% {
-    width: 25px; }
+    width: 55px; }
   100% { 
-    width: 420px;}
+    width: 550px;}
   /*Your code here.*/
 }
 
 @keyframes logo_wiggle{
-  0% {width: 25px;}
-  100% { width: 420px;}
+  0% {width: 55px;}
+  100% { width: 550px;}
   /*Your code here.*/
 } 
 
 #intro{
-  animation-duration: 3s; 
+  animation-duration: 7s; 
   animation-name: logo_wiggle;
-     /*Your code here.*/
  
 }
 
