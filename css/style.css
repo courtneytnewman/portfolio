@@ -7,6 +7,30 @@ body{
     margin: 3%;
 }
 
+.nav-bar{
+  display: flex;
+  flex-direction: column;
+  color: black
+  /*Your code here again.*/
+}
+
+.nav-bar a{
+  color: black;
+  text-decoration: none;
+}
+
+.nav-bar a:hover, a:focus{
+  color: lightpink;
+  text-decoration: wavy;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+}
+
+.nav-bar a:active{
+    font-size: 1.25em;
+    font-style: italic;
+}
+
 h1, h2, h3{
     font-family: "Raleway", sans-serif;
     color: black;
