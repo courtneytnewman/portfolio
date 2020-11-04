@@ -46,9 +46,9 @@ nav{
 footer{
   width:100%;
   max-height: 100px;
-  background-color:#000000;
+  background-color:white;
   text-align:center;
-  color: #FFFFFF;
+  color: pink;
   position: fixed;
   bottom: 0px;
 }
