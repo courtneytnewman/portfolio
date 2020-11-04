@@ -21,7 +21,7 @@ body{
           text-decoration-style: dotted;
 }
 
-.nav-bar a:hover a:active{
+.nav-bar, a:hover, a:active{
     font-size: 1.25em;
     color: lightpink;
     font-style: italic;
@@ -52,11 +52,16 @@ h3{
 
 img{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
 }
 
 
 p{
    font size: 1em;
+    line-height: 1.5;
 }
 
 input:focus{
