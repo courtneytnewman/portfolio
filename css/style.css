@@ -34,6 +34,13 @@ a.skip{
     left: 0px;
 }
 
+#current{
+    font-size: 1.25em;
+    color: lightpink;
+    text-decoration: underline;
+    padding: 1%;
+}
+
 #quick-facts{
     color: grey;
     align: center;
@@ -60,6 +67,7 @@ h3{
 
 #experience{
     text-align: center;
+    color: darkgrey;
 }
 
 
