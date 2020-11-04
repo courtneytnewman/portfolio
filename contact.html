@@ -40,21 +40,20 @@
 		<form action="https://formspree.io/f/meqpkpzr" method="POST">
 			<fieldset>
 				<legend>Contact Form</legend>
-		  First Name
-		  <input type="text" placeholder="Full name here" name = "name>
+				<label for= "name_id">Name</label>
+		 		<input type="text" id = "name_id" placeholder="Full name here" name = "name" required>
 	  
-		  Phone Number
-		  <input type="tel" name = "phone">
-								   <div><span>123-456-7890</span></div>
+				<label for = "number_id">Number</label> 
+		 		<input type="tel" id = "number_id" placeholder= "123-456-7890" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" name = "phone" required>
 	  
-		  Company
-		  <input type="text" placeholder = "Company here">
+				<label for= "company">Company</label>
+		  	<input type="text" id="company" placeholder = "Company here" required>
 
-		  Email
-		  <input type = "email" name = "email">
+				<label for= "email">Email</label> 
+		  <input type = "email" id = "email" name = "email" placeholder= "janedoe@website.com" required>
 	  
-		Leave a Message
-		  <textarea name = "message"></textarea>
+		<label for = "mesg">Leave a Message</label>
+		  <textarea name = "message" id="msg" placeholder="Leave a message here"></textarea>
 	  
 		Remeber Me	
 		  <input type="checkbox" name="remember me">
