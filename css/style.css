@@ -46,6 +46,10 @@ a.skip{
     align: center;
 }
     
+#dropdown{
+    display: flex;
+    flex-direction: row;
+}
 
 
 h1, h2, h3{
@@ -167,6 +171,10 @@ img:hover {
  }
     
     }
+    
+#dropdown{
+    display: flex;
+    flex-direction: column;
     
 @media screen and (min-width: 800px){
     .gallery{
