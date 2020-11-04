@@ -82,6 +82,9 @@ img{
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: center;
+    flex-basis: auto;
+    flex-shrink: auto;
+    
 }
 
 
