@@ -46,6 +46,7 @@ h1, h2, h3{
     color: black;
     text-align: center;
     font-size: 3em;
+    padding: 3%;
 }
 
 h2{
@@ -55,8 +56,13 @@ h2{
 
 h3{
     font-size: 1.5em;
-    text-align: left;
 }
+
+#experience{
+    text-align: center;
+}
+
+
 
 img{
     display: flex;
@@ -76,12 +82,6 @@ p{
 input:focus{
     border: 2px solid pink;
 
-nav{
-    color: white;
-    background-color: darkgrey;
-    display: flex;
-    flex-direction: row;
-}
     
 footer{
   width:100%;
