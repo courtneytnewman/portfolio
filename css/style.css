@@ -110,11 +110,55 @@ gallery:hover {
 @media screen and (min-width: 700px){
     .gallery{
         width: 45%;
+        
+    @-webkit-keyframes logo_wiggle{
+  0% {
+    width: 25px; }
+  100% { 
+    width: 420px;}
+  /*Your code here.*/
+}
+
+@keyframes logo_wiggle{
+  25% {width: 25px;}
+  100% { width: 420px;}
+  /*Your code here.*/
+} 
+
+#intro{
+  animation-duration: 7s; 
+  animation-name: logo_wiggle;
+     /*Your code here.*/
+ 
+}
+
     
     }
     
 @media screen and (min-width: 800px){
     .gallery{
-        width: 30%;   
+        width: 30%;  
+        
+        @-webkit-keyframes logo_wiggle{
+  0% {
+    width: 25px; }
+  100% { 
+    width: 420px;}
+  /*Your code here.*/
+}
+
+@keyframes logo_wiggle{
+  0% {width: 25px;}
+  100% { width: 420px;}
+  /*Your code here.*/
+} 
+
+#intro{
+  animation-duration: 3s; 
+  animation-name: logo_wiggle;
+     /*Your code here.*/
+ 
+}
+
     }
     
