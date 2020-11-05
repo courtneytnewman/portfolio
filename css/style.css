@@ -254,5 +254,10 @@ nav #dropdown{
     display: flex;
     flex-direction: column;
 }
+    .gallery{
+        width: 25%;
+    }
+    
+    
 }
     
