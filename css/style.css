@@ -180,8 +180,7 @@ footer {
 }
 
 .gallery img{
-    min-width:25%;
-    max-width: 100%;
+    flex-flow: row wrap;
     padding: 1em;
 }
     
