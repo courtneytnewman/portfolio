@@ -69,6 +69,13 @@ h3{
     font-size: 1.5em;
 }
 
+.about img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: auto;
+}
+
 #experience{
     text-align: center;
     color: darkgrey;
@@ -81,7 +88,7 @@ h3{
 
 img{
     display: flex;
-    flex-direction;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-basis: auto;
