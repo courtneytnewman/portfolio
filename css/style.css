@@ -54,7 +54,6 @@ a.skip{
 #current{
     font-size: 1.25em;
     color: lightpink;
-    background-color: grey;
     text-decoration: underline;
     padding: 1%;
 }
