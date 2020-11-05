@@ -243,7 +243,7 @@ footer {
         grid-row-end: 3;
     }
  
-nav-bar a{
+.nav-bar a{
     display:flex;
     flex-direction:row;
     }
