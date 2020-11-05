@@ -16,13 +16,11 @@ header{
     display: flex;
     flex-direction: row;
   color: black;
-  text-decoration: none;
   font-size: 0.75em;
 }
 
 .nav-bar, a:focus{
   color: black;
-  text-decoration: wavy;
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
 }
@@ -44,6 +42,7 @@ a.skip{
 #current{
     font-size: 1.25em;
     color: lightpink;
+    background-color: grey;
     text-decoration: underline;
     padding: 1%;
 }
@@ -199,8 +198,6 @@ footer {
     display: flex;
     flex-direction:column;
     justify-content: space-between;
-    
-    
  }
     
 #bold{
