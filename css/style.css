@@ -69,7 +69,13 @@ h3{
     font-size: 1.5em;
 }
 
-.about img{
+#headshot{
+    display: flex;
+    flex-direction: row;
+    flew-wrap: wrap;
+    max-width: 50%;
+}
+.about img #bighouse{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
