@@ -73,7 +73,9 @@ h3{
     display: flex;
     flex-direction: row;
     flew-wrap: wrap;
-    max-width: 50%;
+    max-width: 33%;
+    max-height: 33%;
+    justify-content: center;
 }
 .about img #bighouse{
     display: flex;
@@ -81,6 +83,7 @@ h3{
     flex-wrap: wrap;
     flex-shrink: auto;
     width: 100%;
+    justify-content:center;
 }
 
 #experience{
@@ -187,8 +190,9 @@ img:hover {
 @media screen and (min-width: 800px){
     
     #headshot{
-        align-content: center;
-        max-width: 33%;
+        justify-content: center;
+        max-width: 50%;
+        max-height: 50%;
     }
     
         
