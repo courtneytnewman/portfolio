@@ -7,6 +7,11 @@ body{
     margin: 3%;
 }
 
+header{
+    display: flex;
+    flex-direction: row;
+} 
+
 .nav-bar a{
     display: flex;
     flex-direction: row;
@@ -20,6 +25,7 @@ body{
   text-decoration: wavy;
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
+    border: solid black 1px;
 }
 
 a:hover, a:active{
