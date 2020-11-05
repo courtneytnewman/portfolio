@@ -1,16 +1,15 @@
 *{
     font-family: "Poppins", sans-serif;
 }
-
-  @keyframes logo_wiggle{
-    0% {background: grey;}
-    50%{background: lightpink}
-    100% { background: white;}
+  @keyframes color{
+    0% {color: lightpink;}
+    50%{color: grey}
+    100% { color: black;}
   } 
   
   #intro{
-    animation-duration: 4s; 
-    animation-name: logo_wiggle;
+    animation-duration: 5s; 
+    animation-name: color;
     place-items: center;
   }
     
