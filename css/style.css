@@ -74,6 +74,7 @@ h3{
     flex-direction: column;
     flex-wrap: wrap;
     flex-shrink: auto;
+    width: 100%;
 }
 
 #experience{
@@ -94,7 +95,7 @@ img{
     flex-shrink: auto;    
     align-content: center;
     height: 50%;
-    width: auto;
+    width: 100%;
 }
 
 
