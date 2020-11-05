@@ -169,13 +169,14 @@ h3{
 
 
 p{
-   font size: 1em;
+   font-size: 1em;
     line-height: 1.5;
     padding: 4px;
 }
 
 input:focus{
     border: 2px solid pink;
+}
 
     
 footer {
@@ -188,15 +189,18 @@ footer {
   bottom: 0px;
 }
 
+    
+    
 .gallery{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery img{
     padding: 1em;
-    width: 100%;
+    max-width: 100%;
     flex: 25%;
 }
     
