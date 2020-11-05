@@ -200,8 +200,7 @@ footer {
 
 .gallery img{
     padding: 1em;
-    max-width: 100%;
-    flex: 25%;
+    width: 100%;
 }
     
     
