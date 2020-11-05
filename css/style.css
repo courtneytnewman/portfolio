@@ -90,9 +90,11 @@ img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
     flex-basis: auto;
     flex-shrink: auto;    
+    align-content: center;
+    height: 50%;
+    width: auto;
 }
 
 
