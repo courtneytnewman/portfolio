@@ -193,9 +193,12 @@ img:hover {
     flex-direction: column;
     
 @media screen and (min-width: 800px){
-    .gallery{
-        width: 30%;  
+    
+    #headshot{
+        align-content: center;
+        max-width: 33%;
     }
+    
         
     @-webkit-keyframes logo_wiggle{
   0% {width: 55px;}
