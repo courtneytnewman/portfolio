@@ -168,7 +168,7 @@ img:hover {
     
     
 
-@media screen and (min-width: 700px){
+@media only screen and (min-width: 768px) {
 
         
     @-webkit-keyframes logo_wiggle{
