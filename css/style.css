@@ -230,7 +230,7 @@ footer {
     
     
 
-@media screen and (min-width: 800px){ 
+@media screen and (min-width: 700px){ 
     
     .about{
         display:grid;
