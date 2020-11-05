@@ -8,11 +8,11 @@ body{
 }
 
 .nav-bar a{
+    display: flex;
+    flex-direction: row;
   color: black;
   text-decoration: none;
   font-size: 0.75em;
-  display: flex;
-  flex-direction: row;
 }
 
 .nav-bar, a:focus{
@@ -41,9 +41,68 @@ a.skip{
     padding: 1%;
 }
 
-#quick-facts{
+.about{
+    margin: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+}
+
+.about #p1{
+    grid-column: 1/ span 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 3em;
+
+}
+
+.about #p2{
+    grid-column: 1 / span 2;
+    grid-row-start: 2/ span 3;;
+    justify-items: center;
+    line-height: 2em;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+
+}
+.about #headshot{
+    grid-column: 1/ span 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-content: center;
+    align-self: middle;
+    padding: 0.5em;
+    border: solid lightpink;
+}
+
+#headshot{
+    width: 100%;
+    max-height: auto;
+    justify-content: center;
+    align-self: center;
+}
+.about h2{
+    grid-column: 1/span 2;;
+    grid-row-start: 4;
+    justify-content: center;
+}
+
+.about ol{
+    grid-column: 1 /span 2;
+    grid-row: 5/span 2;
+    align-items: center;
+    justify-content: center;
     color: grey;
-    align: center;
+    padding: 1em;
+}
+
+.about #bighouse{
+    width: 100%;
+    padding: 0.5em;
+    border: solid lightpink;
+    grid-column: span 2;
 }
     
 #dropdown{
@@ -60,6 +119,13 @@ h1, h2, h3{
     padding: 3%;
 }
 
+footer{
+    background-color: darkgrey;
+    color: black;
+    margin-bottom: 1;
+    position: absolute;
+}
+
 h2{
     font-size: 2em;
     text-align: center;
@@ -69,21 +135,9 @@ h3{
     font-size: 1.5em;
 }
 
-#headshot{
-    display: flex;
-    flex-direction: row;
-    flew-wrap: wrap;
-    max-width: 33%;
-    max-height: 33%;
-    justify-content: center;
-}
-.about img #bighouse{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex-shrink: auto;
+#bighouse{
     width: 100%;
-    justify-content:center;
+    position: center;
 }
 
 #experience{
@@ -92,18 +146,8 @@ h3{
 }
 
 #container{
-    display: grid;
-    grid-row-gap: 1em;
-}
-
-img{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: auto;
-    flex-shrink: auto;    
-    align-content: center;
-    height: 50%;
+    grid-row-gap: 1em;
     width: 100%;
 }
 
@@ -119,7 +163,7 @@ input:focus{
     border: 2px solid pink;
 
     
-footer{
+footer {
   width:100%;
   max-height: 100px;
   background-color:lightpink;
@@ -131,13 +175,13 @@ footer{
 
 .gallery {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto ;
-    justify-content: center;
-    margin: 2;
-    max-height: 50%;
-  
+    padding: 2px;  
   }
+
+.gallery img{
+    width: 100%;
+    height: 100%;  
+}
     
     
     
@@ -163,53 +207,25 @@ img:hover {
     
     
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 850px){ 
 
-        
-    @-webkit-keyframes logo_wiggle{
-  0% {width: 50px;}
-  100% {width: 500px;}
-}
-
-@keyframes logo_wiggle{
-  0% {width: 50px;}
-  100% { width: 500px;}
-} 
-
-#intro{
-  animation-duration: 7s; 
-  animation-name: logo_wiggle;
- }
-    
+.about #p2{
+        padding: 3em;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-row-end: 4;
     }
+
+    .about #headshot{
+        grid-column: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+ 
     
 #dropdown{
     display: flex;
     flex-direction: column;
-    
-@media screen and (min-width: 800px){
-    
-    #headshot{
-        justify-content: center;
-        max-width: 50%;
-        max-height: 50%;
-    }
-    
-        
-    @-webkit-keyframes logo_wiggle{
-  0% {width: 55px;}
-  100% {width: 550px;}
 }
-
-@keyframes logo_wiggle{
-  0% {width: 55px;}
-  100% { width: 550px;}
-} 
-
-#intro{
-  animation-duration: 7s; 
-  animation-name: logo_wiggle;
 }
-
-    }
     
