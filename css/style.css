@@ -226,8 +226,12 @@ footer {
     
 
 @media screen and (min-width: 800px){ 
+    
+    .about{
+        display:grid;
+    }
 
-.about #p2{
+    .about #p2{
         padding: 3em;
         grid-column-start: 1;
         grid-row-start: 2;
@@ -240,8 +244,12 @@ footer {
         grid-row-end: 3;
     }
  
-    
-#dropdown{
+nav-bar a{
+    display:flex;
+    flex-direction:row;
+    }
+
+nav #dropdown{
     display: flex;
     flex-direction: column;
 }
