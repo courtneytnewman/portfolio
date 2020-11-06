@@ -154,13 +154,6 @@ h1, h2, h3{
     padding: 3%;
 }
 
-footer{
-    background-color: darkgrey;
-    color: black;
-    margin-bottom: 1;
-    position: absolute;
-}
-
 h2{
     font-size: 2em;
     text-align: center;
@@ -201,7 +194,7 @@ footer {
   color: black;
   position: fixed;
   bottom: 0px;
-    padding: 5px;
+  padding: 5px;
 }
 
     
