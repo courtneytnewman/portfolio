@@ -252,7 +252,10 @@ legend{
     max-width: 50%;
 }
 #bold{
-    font-style:italic;
+    text-transform: uppercase;
+    color: grey;
+    border: dotted pink;
+    padding-top: 1%;
     }
     
 #list{
