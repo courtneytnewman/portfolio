@@ -129,8 +129,9 @@ a.skip{
     grid-row: 5/span 2;
     align-items: center;
     justify-content: center;
-    color: grey;
+    color: black;
     padding: 1em;
+    list-style-position: inside;
 }
 
 .about #bighouse{
@@ -182,9 +183,15 @@ h3{
     
 }
 
-h3 #experience{
+h3 #exp1{
     text-align: center;
-    color: darkgrey;
+    color: black;
+    border: dashed pink;
+}
+
+h3 #exp2{
+    text-align: center;
+    color: black;
     border: dashed pink;
 }
 
@@ -277,7 +284,7 @@ legend{
 }
 #bold{
     text-transform: uppercase;
-    color: grey;
+    color: black;
     border: dotted pink;
     padding-top: 1%;
     }
