@@ -33,6 +33,7 @@ header{
 
 .nav-bar li{
     justify-content: center;
+    align-items: center;
     color: black;
     font-size: auto;
     padding: 1%;
@@ -169,6 +170,11 @@ h3{
 #bighouse{
     width: 100%;
     position: center;
+}
+
+.experience{
+    display: grid;
+    
 }
 
 h3 #experience{
