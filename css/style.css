@@ -27,7 +27,6 @@ header{
 .nav-bar{
     display: flex;
     flex-direction: row;
-
     justify-content: center;
 }
 
@@ -37,6 +36,7 @@ header{
     color: black;
     font-size: auto;
     padding: 1%;
+    width: 100%;
 }
 
 .nav-bar, a:focus{
@@ -66,7 +66,7 @@ a.skip{
 }
 
 #current{
-    font-size: 1.5em;
+    text-transform: uppercase;
     color: pink;
     font-style: italic;
     padding: 0.5%;
@@ -165,6 +165,9 @@ h2{
 
 h3{
     font-size: 1.5em;
+    border: dashed lightpink;
+    color: black;
+    text-decoration: wavy;
 }
 
 #bighouse{
@@ -174,6 +177,8 @@ h3{
 
 .experience{
     display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
     
 }
 
@@ -183,11 +188,14 @@ h3 #experience{
     border: dashed pink;
 }
 
-#experience ul li{
+
+.experience #list{
     padding-top: 1px;
     line-height: 1.5;
-    text-align: center;
-    
+    margin-left: auto;
+    margin-right: auto;
+    list-style-position: inside;
+    width: 85%;
 }
 
 
@@ -299,6 +307,7 @@ legend{
 .nav-bar a{
     display:flex;
     flex-direction:row;
+    justify-content: center;
     }
 
 nav #dropdown{
@@ -306,10 +315,10 @@ nav #dropdown{
     flex-direction: column;
 }
     
- @media screen and (prefers-reduced-motion: reduce){
+}
+@media screen and (prefers-reduced-motion: reduce){
     #intro{
       animation: none;
     }
     
 }
-    
