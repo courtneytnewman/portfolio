@@ -177,10 +177,10 @@ h3 #experience{
     border: dashed pink;
 }
 
-#experience ul{
-    margin-left: auto;
-    margin-right: auto;
+#experience ul li{
+    padding-top: 1px;
     line-height: 1.5;
+    text-align: center;
     
 }
 
