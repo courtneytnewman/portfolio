@@ -114,6 +114,8 @@ a.skip{
     max-height: auto;
     justify-content: center;
     align-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .about h2{
     grid-column: 1/span 2;;
@@ -169,9 +171,10 @@ h3{
     position: center;
 }
 
-#experience{
+h3 #experience{
     text-align: center;
     color: darkgrey;
+    border: dashed pink;
 }
 
 #experience ul{
