@@ -181,6 +181,8 @@ h3 #experience{
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5;
+    
+}
 
 
 
@@ -298,6 +300,10 @@ nav #dropdown{
     flex-direction: column;
 }
     
+ @media screen and (prefers-reduced-motion: reduce){
+    #intro{
+      animation: none;
+    }
     
 }
     
