@@ -322,6 +322,9 @@ nav #dropdown{
     display: flex;
     flex-direction: column;
 }
+    .gallery img{
+        justify-content: none;
+    }
     
 }
 @media screen and (prefers-reduced-motion: reduce){
