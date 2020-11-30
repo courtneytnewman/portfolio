@@ -225,7 +225,7 @@ footer {
   max-height: 100px;
   background-color:lightpink;
   text-align:center;
-  justify-position: center;
+  margin: auto;
   color: black;
   bottom: 0px;
   padding: 5px;
@@ -257,6 +257,7 @@ footer {
     grid-template-rows: auto;
     grid-gap: 16px;
     width: 75%;
+    margin: auto;
 
  }
 legend{
