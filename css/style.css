@@ -67,7 +67,7 @@ a.skip{
 
 #current{
     text-transform: uppercase;
-    color: pink;
+    color: grey;
     font-style: italic;
     padding: 0.5%;
     text-decoration: none;
@@ -221,10 +221,11 @@ input:focus{
 
     
 footer {
-  width:100%;
+  width:50%;
   max-height: 100px;
   background-color:lightpink;
   text-align:center;
+  justify-position: center;
   color: black;
   bottom: 0px;
   padding: 5px;
@@ -245,7 +246,7 @@ footer {
     
     
 .gallery img:hover {
-  border: 5px solid lightpink;
+  border: 3px solid lightpink;
     }
 
     
@@ -255,7 +256,7 @@ footer {
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-gap: 16px;
-    width: 100%;
+    width: 75%;
 
  }
 legend{
@@ -317,7 +318,8 @@ legend{
 .nav-bar a{
     display:flex;
     flex-direction:row;
-    justify-content: center;
+    justify-content: left;
+    align-self: left;
     }
 
 nav #dropdown{
