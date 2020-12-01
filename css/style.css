@@ -28,6 +28,8 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .nav-bar li{
@@ -261,14 +263,6 @@ footer {
     margin: auto;
  }
 
-.parallax {
-    width: 75%;
-    height: 100%;
-    padding: 4px 2px;
-    position: absolute;
-    background-image: url("jpeg/laughing.jpeg");
-}
-
 legend{
     justify-content: center;
 }
@@ -325,18 +319,6 @@ legend{
         grid-row-start: 2;
         justify-content: center;
     }
- 
-.nav-bar a{
-    display:flex;
-    flex-direction:row;
-    justify-content: left;
-    align-self: left;
-    }
-
-nav #dropdown{
-    display: flex;
-    flex-direction: column;
-}
 
     .gallery img{
         justify-content: none;
