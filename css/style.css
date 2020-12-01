@@ -67,7 +67,8 @@ a.skip{
 
 #current{
     text-transform: uppercase;
-    color: grey;
+    color: black;
+    background-color: pink;
     font-style: italic;
     padding: 0.5%;
     text-decoration: none;
