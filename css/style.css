@@ -258,8 +258,16 @@ footer {
     grid-gap: 16px;
     width: 75%;
     margin: auto;
-
  }
+
+.parallax {
+    width: 75%;
+    height: 100%;
+    padding: 4px 2px;
+    position: absolute;
+    background-image: url("jpeg/laughing.jpeg");
+}
+
 legend{
     justify-content: center;
 }
@@ -278,6 +286,7 @@ legend{
      grid-column: 1;
      width: 100%;
  }
+
  
 #resume-pic{
     display: block;
