@@ -286,6 +286,11 @@ legend{
      padding: 2%;
  }
 
+.container #sub{
+    height: 10%;
+    padding: 3%;
+}
+
  
 #resume-pic{
     display: block;
