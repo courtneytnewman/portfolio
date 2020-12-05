@@ -22,15 +22,13 @@ body{
 header{
     display: flex;
     flex-direction: row;
+    width: 100%;
     flex-wrap: nowrap;
     justify-content: center;
     align-self: center;
 } 
 
 .nav-bar{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     align-content: center;
