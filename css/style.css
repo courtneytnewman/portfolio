@@ -336,5 +336,11 @@ legend{
     #intro{
       animation: none;
     }
+    .gallery img{
+        border: 3px solid lightpink;
+    }
+    .gallery img:hover {
+  border: none;
+    }
     
 }
