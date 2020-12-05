@@ -36,7 +36,8 @@ header{
     color: black;
     font-size: auto;
     padding: 1%;
-    width: 100%;
+    width: 15%;
+    flex-wrap: nowrap;
 }
 
 .nav-bar, a:focus{
