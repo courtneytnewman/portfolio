@@ -174,6 +174,12 @@ h3{
     text-decoration: wavy;
 }
 
+img:focus{
+    border: 3px solid lightpink;
+;
+}
+    
+
 #bighouse{
     width: 100%;
     position: center;
@@ -247,7 +253,7 @@ footer {
 }
     
     
-.gallery img:hover {
+.gallery img:hover, {
   border: 3px solid lightpink;
     }
 
