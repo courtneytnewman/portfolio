@@ -23,20 +23,19 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-self: center;
+    align-items: center;
 } 
 
 .nav-bar{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+
 }
 
 .nav-bar li{
     color: black;
-    font-size: auto;
-    padding: 1%;
-    width: 15%;
+    padding: 5px;
+    justify-content: space-between;
     flex-wrap: nowrap;
 }
 
@@ -71,7 +70,6 @@ a.skip{
     color: black;
     background-color: pink;
     font-style: italic;
-    padding: 0.5%;
     text-decoration: none;
 }
 
@@ -144,10 +142,8 @@ a.skip{
 }
     
 #dropdown{
-    display: flex;
-    flex-direction: column;
+    display:inline-block;
     color: black;
-    flex-wrap: nowrap;
     text-decoration: none;
     font-size: 0.5em;
 }
@@ -172,10 +168,6 @@ h3{
     border-radius: 25px;
     color: black;
     text-decoration: wavy;
-}
-
-img:focus{
-    border: 3px solid lightpink;
 }
     
 
@@ -252,8 +244,9 @@ footer {
 }
     
     
-.gallery img:hover, {
+.gallery img:hover {
   border: 3px solid lightpink;
+  border-radius: 10%;
     }
 
     
@@ -329,8 +322,15 @@ legend{
         padding: 3em;
         grid-row: 2/ span 2;
         grid-column: 1/ span 1;
+    }
+    .nav-bar li{
+        color: black;
+        padding: 7px;
+    }
 
-
+    #dropdown{
+        font-size: 3px;
+        display: inline-block;
     }
 
     .about #headshot{
@@ -351,6 +351,7 @@ legend{
     }
     .gallery img{
         border: 3px solid lightpink;
+        border-radius: 0%;
     }
     
 }
