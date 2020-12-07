@@ -179,6 +179,10 @@ h3{
     position: center;
 }
 
+.parallax{
+    
+}
+
 .experience{
     display: grid;
     grid-template-rows: auto;
@@ -344,6 +348,15 @@ legend{
 
     .gallery img{
         justify-content: none;
+    }
+    
+    .parallax{
+    background-image: url(../jpeg/group.png);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
     
