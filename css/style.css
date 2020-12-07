@@ -349,7 +349,6 @@ legend{
     
     .parallax{
     background-image: url(../jpeg/group.png);
-        margin: 20%;
     min-height: 600px;
     background-attachment: fixed;
     background-position: center;
